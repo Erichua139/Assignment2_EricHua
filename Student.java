@@ -5,16 +5,17 @@ public class Student extends Person{
 
 
 	public Student(String stdName, String stdId) { 
-	   
+		this.id=stdId;
+		this.name=stdName;
 	}
 
 
   	  public String getName() {  		 
-  		 	 
+		  return(name);
   	  }
 
   	  public String getId() {
-  		  
+  		  return(id);
   	  } 	  
   	  
   	  
