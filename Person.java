@@ -28,7 +28,7 @@ public class Person {
     }
 
     public String toString() {
-        return (name)
+        return (name);
 
     }
 }
