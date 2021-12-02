@@ -16,7 +16,7 @@ public class Course{
         classList = new Vector<Student>();
     }
     public String getDept() {
-        return dept;
+        return dept.getName();
     }
 
     public String getCode() {
@@ -31,6 +31,7 @@ public class Course{
         // SOFE 2710 Object Oriented Programming and Design, Enrollment = 260
         String temp = "";
         temp+=code+" "+number+" "+title+", Enrollment = "+classList.size();
+        return temp;
     }
 
     public Course() {
